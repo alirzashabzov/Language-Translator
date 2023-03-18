@@ -1,0 +1,132 @@
+/* import google fon poppins */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background: #5372f0;
+}
+span{
+color: rgb(93, 84, 84);
+
+}
+.container{
+width: 690px;
+background-color: #fff;
+border-radius: 7px;
+padding: 30px;
+
+}
+.wrapper{
+border: 1px solid #bbb;
+border-radius: 5px;
+
+}
+.wrapper  .text-input{
+display: flex;
+border-bottom: 1px solid #bbb;
+
+}
+.text-input  .to-text{
+border-left: 1px solid #bbb;
+border-radius: 0px;
+
+}
+
+
+.text-input textarea{
+height: 250px;
+width: 100%;
+border: none;
+outline: none;
+resize: none;
+background: none;
+border-radius:5px ;
+padding: 10px 15px;
+font-size: 18px;
+}
+
+.controls, li, .icons, .icons i{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.controls  .row.from .icons{
+border-right: 1px solid #bbb ;
+padding-right: 15px;
+
+
+}
+
+
+.controls .row.to .icons {
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+
+
+}
+
+.controls{
+list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .icons{
+width: 38%;
+
+
+}
+.controls  .icons  i{
+color: #9f9f9f;
+font-size: 14px;
+cursor: pointer;
+width: 50px;
+justify-content: center;
+}
+
+
+.controls .row select{
+border: none;
+outline: none;
+background: none;
+font-size: 18px;
+}
+
+
+.controls .exchange{
+color: #9f9f9f;
+cursor: pointer;
+font-size: 16px;
+}
+
+.container button{
+width: 100%;
+padding: 14px;
+margin-top: 20px;
+border: none;
+outline:none ;
+cursor: pointer;
+border-radius: 5px;
+background: #5372f0;
+color: #fff;
+font-size: 17px;
+
+}
+.container button:hover{
+background-color: rgb(45, 59, 72);
+color: #5372f0;
+}
+
+
+
+
+
+
